@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name ="viewport" content="width = device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        font-size: 14px;
+      }
+      #buttom{
+        background-color: white;
+        color: black;
+        padding: 16px;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      #seach{
+        background-color: white;
+      /*  padding: 16px;*/
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+          border-bottom: solid 1px #cccccc;
+      }
+      .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 16px;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Fjalla One', sans-serif;
+      font-family: 'Black Han Sans', sans-serif;
+
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 50px;
+      /*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+          font-size: 5px;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {background-color: white}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: white;
+      }
+      li{
+        list-style-type: none;
+      }
+      .clear{
+        clear: both;
+      }
+      header{
+        width: 1140px;
+        height:100px;
+        margin: 0 auto;
+      }
+      #nav li{
+        float: right;
+        padding: 10px;
+          border-bottom: solid 1px #cccccc;
+      }
+      #logo{
+        float: left;
+        margin: 20px 0 0 20px;
+
+      }
+      #meuns{
+        float: right;
+      }
+      #top-menu{
+      text-align: right;
+        margin-top: 20px;
+      }
+      #main-menu{
+        margin-top: 20px;
+        font-size: 20px;
+        color: black;
+      }
+      #main-menu li{
+        display: inline;
+        margin-left: 80px;
+      }
+      #main-img{
+        width: 100%;
+        height:281px;
+        background-image: url()
+        background-repeat: no-repeat;
+        background-positiom: top center;
+
+        margin-top: 20px;
+      }
+      #contents{
+        width: 1140px;
+        margin: 0 auto;
+      }
+      #sud-menu{
+        width: 234px;
+        float: left;
+        margin-top: 25px;
+      }
+      #sud-menu h3{
+        font-size: 18px;
+        color: white;
+       padding: 12px;
+
+      }
+      #sud-menu li{
+       padding: 10px;
+        border-bottom: dotted 1px #cccccc;
+      }
+      #main-contents{
+        width: 880px;
+        float: right;
+        margin-top: 25px;
+      }
+        #main-contents h3{
+          font-size: 22px;
+          padding-bottom: 8px;
+          border-bottom: solid 1px #cccccc;
+        }
+        #main-contents p{
+        /*  margin-top: 30px;*/
+          line-height: 180%;
+        }
+        #main_contents #figure{
+          margin-top:30px;
+          text-align: center;
+        }
+        #main_contents li{
+          padding: 5px;
+        }
+        footer{
+          width: 100%;
+          height: 150px;
+          margin-top: 30px;
+          background-color: black;
+        }
+          #footer_box{
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+          }
+            #footer_logo{
+              float: left;
+              margin: 50px 0 0 30px;
+            }
+            #address{
+              float: left;
+              margin: 50px 30px 0 0;
+              color: white;
+            }
+            table,td,th,tr{
+              border-collapse: collapse;
+              margin: 10px;
+              padding: 10px;
+            }
+            a{
+              text-decoration: none;
+              color:black;
+            }
+            .buttom {
+          background-color: none;
+          border: none;
+          color: black;
+          padding: 8px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 14px;
+          cursor: default;
+          }
+          a:hover {
+            color: gray;
+          }
+      </style>
+  </head>
+  <body>
+    <header>
+      <div id='logo'>
+         <a href="index_21961104.html"> <img src='logo.png' width='100'></a></div>
+    <table>
+        <nav id='menus'>
+          <div id='top-menu'>
+            <form action="/action_page.php">
+    <img src='sea.png' width='13'><input id='seach' type="text" name="usrname">
+    <input id='buttom'  type="submit" value="Submit">
+    </form>
+            <div class="dropdown">
+            <button class="dropbtn"><a  href="rogin.html">로그인</a></button>
+            <div class="dropdown-content">
+               <a href="nawbe.html">회원가입</a>
+               </div>
+              <!--   <div class="dropdown">
+            <button class="dropbtn"> <input type="image" src="instar.png" alt="Submit" width="10" height="10"></button>
+            <div class="dropdown-content">-->
+        <img src='instar.png' width='10'>
+        </div>  </div> </table>
+    <center>
+            <div id='top-menu'>
+              <nav id='nav'>
+                <ul class='buttom'>
+
+                <li> <a href="wr.html">Wreck-It Ralph </a></li>
+                <li> <a href="snoo.html">Snoopy</a></li>
+                <li> <a href="spon.html">Spongebob</a></li>
+                <li> <a href="pin.html">Finn and jake adventure time</a></li>
+                <li> <b><a href="webare.html">We bare bears</a></b></li>
+                <li> <a href="intro.html">Disenchantment</a></li>
+                  </ul>
+                  </nav>
+                 </header>
+            <section id='main-img'><section>
+                    <section id='contents'>
+                      <nav id='sud-menu'>
+                        <h3><a href="webare.html">We bare bears 소개 </a> </h3>
+                        <ul>
+                          <li> <b> <a href="weecha.html">캐릭터 소개</a></b> </li>
+
+                        </ul></nav>
+
+    <div id='main-contents'>
+    <h3>캐릭터 소개</h3><br>
+    <div id='figure'>
+
+    <table>
+  <tr><td> <center> <img src='g.png' width='200'><h4> 그리즐리</h4></center></td>
+  <td><center> <img src='p.png' width='200'><h4>판다</h4></center></td>
+  <td><center> <img src='ice.png' width='200'><h4>아이스 베어</h4></center></td></tr>
+</table>
+    </div>
+  </body>
+</html>
